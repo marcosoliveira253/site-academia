@@ -1,0 +1,177 @@
+/* NAVBAR */
+
+.nav-link:hover {
+    color: #000000;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-brand span {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+#navbar-items .nav-item {
+    margin: 0 1em;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    z-index: 100;
+  }
+
+/* BANNER-PRINCIPAL */
+#banner-principal {
+    margin-top: 6em;
+    margin-bottom: 1em;
+    padding: 10px 12px;
+    text-align: center;
+}
+#principal {
+    font-size: 1.15em;
+    font-weight: 500;
+}
+
+.bs-blue {
+    color: #0d6efd;
+}
+
+@media(min-width:768px) {
+    #principal {
+        font-size: 2.5em;
+    }
+}
+
+.sobre-nos {
+    text-align: center;
+}
+.sobre-nos h2{
+    font-size: 1.15em;
+    font-weight: 500;
+    padding: 20px;
+}  
+
+.sobre-nos p {
+    padding: 20px;
+    text-align: justify;
+}
+
+@media(min-width: 768px) {
+    .sobre .container {
+        align-items: center;
+    }
+
+    .sobre-nos {
+        max-height: 450px;
+        text-align: center;
+        margin-right: 10px;
+       
+    }
+    .sobre-nos h2{
+        font-size: 2.5em;
+        text-align: center;
+        padding: 30px;
+    }
+    .sobre-nos p{
+        text-align: center;
+        padding: 30px;
+    }
+    
+}
+
+.row {
+    padding: 0px 20px;
+}
+
+.card-text {
+    text-align: justify;
+    font-size: .9em;
+    height: 216px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: bottom;
+}
+/* Muda a cor e tamanho da setas */
+.carousel-control-prev i,
+.carousel-control-next i {
+    color: #f1ecec;
+    font-size: 3em;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #787474;
+    opacity: 0.8;
+}
+
+.carousel-indicators .active {
+    background-color: #eee9e9;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+@media(min-width: 768px) {
+    #slider-container {
+        width: 50%;
+        padding: 20px;
+}
+    }
+
+    .d-block {
+        height: 100vh;
+    }
+    #slider .carousel-caption {
+        bottom: 6em;
+    }
+    #slider .carousel-caption h5 {
+        font-size: 4em;
+        text-shadow: #e6e1e1 2px 3px;
+    }
+    #slider .btn {
+        padding: 0.6 1.6em;
+        font-size: 1.2em;
+        margin-top: 1em;
+    }
+    .carousel-indicators{
+        bottom: 3em;
+    }
+    
+
+@media(min-width: 992px) {
+    .sobre .container {
+        display: flex;
+    }
+
+    .sobre .col-12 {
+        width: 50%;
+    }
+    .carousel-inner img {
+        width: 100%;
+        height: 50%;
+
+}
+
+

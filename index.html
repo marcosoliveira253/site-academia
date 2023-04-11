@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!-- Css Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e900325a4e.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- CABEÇALHO DO SITE -->
+    <header class="bg-light">
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <div class="container py-3">
+                <a href="#" class="navbar-brand">Vida Fitnnes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+                    aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-items">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#cards1" class="nav-link">Academia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#container-servicos" class="nav-link">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#slider-container" class="nav-link">Instrutores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contato</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- BANNER PRINCIPAL -->
+    <div class="jumbotron jumbotron-fluid w-100 my-5">
+        <div class="container" id="banner-principal">
+            <h1 class="display-4" id="principal">Bem vindo a <span class="bs-blue">Vida Fitnnes</span> <br> Fique em
+                Forma e Sinta-se Melhor!</h1>
+            <p class="lead">A melhor academia da cidade.</p>
+            <p>O exercício regular pode ajudá-lo a ficar em forma e saudável! Fazer uma caminhada diária ou correr é uma
+                ótima maneira de começar.</p>
+
+            <a href="#" class="btn btn-primary btn-lg">Saiba mais</a>
+        </div>
+    </div>
+
+    <!-- SOBRE NÓS -->
+    <section class="sobre py-5 bg-light">
+        <div class="container">
+            <div class="sobre-nos my-5">
+                <h2>Vida Fitness: Estilos de Vida Saudáveis para um Você Melhor</h2>
+                <p>A Vida Fitness oferece aos membros as melhores instalações e
+                    equipamentos de ginástica da classe, bem como aulas de alta qualidade, treinamento pessoal e
+                    conselhos nutricionais para ajudar a alcançar seus objetivos de condicionamento físico.
+                    A Vida também oferece uma variedade de produtos e recursos on-line para manter os membros
+                    motivados a viver um estilo de vida mais saudável e ativo.
+                </p>
+
+            </div>
+            <div class="row mt-5" id="cards1">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card text-white bg-success mb-3">
+                        <div class="card-header"><i class="far fa-question-circle"></i></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Recepção</h5>
+                            <p class="card-text">Duvidas sobre o funcionamento da academia? Procure-nos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card text-white bg-success mb-3">
+                        <div class="card-header"><i class="fa-solid fa-user"></i></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Professores</h5>
+                            <p class="card-text">Eles sabem tudo sobre exercício, monta treino, dá aula coletiva e te
+                                ajuda a conquistar seus objetivos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card text-white bg-success mb-3">
+                        <div class="card-header"><i class="fa-sharp fa-solid fa-dumbbell"></i></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Equipamentos</h5>
+                            <p class="card-text">Equipamentos de última geração proporcionando mais confortoe
+                                performance aos treinos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card text-white bg-success mb-3">
+                        <div class="card-header"><i class="fa-solid fa-car"></i></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Estacionamento</h5>
+                            <p class="card-text">Amplo estacionamento gratuito para atender os alunos e professores.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SEÇÃO DE SERVIÇOS -->
+    <section class="container py-5" id="container-servicos">
+        <h2 class="text-center mb-4">Nossos Serviços</h2>
+        <hr / class="w-25 m-auto">
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card h-80">
+                    <img src="./img/agachamento-com-barra.jpg" alt="card top" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Musculação</h5>
+                        <p class="card-text">Treino de musculação aumenta a autoestima, melhora o metabolismo, controla
+                            o sono e ajuda na perda de gosdura.</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-80">
+                    <img src="./img/cardio.jpg" alt="card top" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Cárdio</h5>
+                        <p class="card-text">Esse espaço tem foco no treino cardio para aqueles que querem suar muito!
+                            Equipado com esteiras, bicicletas, remos, simuladores de escadas e elípticos que ajudam a
+                            adquirir resistência física através do fortalecimento do sistema cardiovascular.</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-80">
+                    <img src="./img/academia-de-musculacao-crossfit.jpg" alt="card top" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Intense</h5>
+                        <p class="card-text">spaço que proporciona benefícios aos alunos como ganho de força,
+                            equilíbrio, flexibilidade, resistência e agilidade. O usuário faz uso da corda naval,
+                            medicine ball, kettleball, sand bag, argola para exercício suspenso, caixote para
+                            pliometria, TXR, entre outros equipamentos potencializados que tornam o treino mais
+                            dinâmico e eficiente. </p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- INSTRUTORES -->
+    <section class="container py-5" id="slider-container">
+        <h2 class="text-center mb-4" id="carrosel">Instrutores(as)</h2>
+        <hr / class="w-25 m-auto">
+        <div class="carousel slide" id="slider" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#slider" data-bs-slide-to="0" aria-current="true"
+                    aria-label="slide 1">
+                </button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="slide 2">
+                </button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="slide 3">
+                </button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/personal 1.jpg" alt="casa 1" class="d-block w-80">
+                    <div class="carousel-caption">
+                        <h5>Roberta</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/personal 2.jpg" alt="casa 2" class="d-block w-80">
+                    <div class="carousel-caption">
+                        <h5>Ana</h5>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/personal 4.jpg" alt="casa 3" class="d-block w-80">
+                    <div class="carousel-caption">
+                        <h5>Marcia</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="button carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                <i class="bi bi-chevron-compact-left"></i>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="button carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                <i class="bi bi-chevron-compact-right"></i>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- CONTATOS -->
+    <section class="contact py-5" id="contact">
+        <div class="container">
+            <h2 class="text-center mb-4">Contato</h2>
+            <hr / class="w-25 m-auto">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome:</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Digite seu email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label">Telefone:</label>
+                            <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone"
+                                required>
+                            <div class="invalid-feedback">Por favor, forneça um número de telefone válido.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem:</label>
+                            <textarea class="form-control" id="mensagem" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CADASTRE-SE -->
+    <!--<section class="cadastro py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Cadastro</h2>
+            <hr / class="w-25 m-auto">
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome completo</label>
+                            <input type="text" class="form-control" id="nome" name="nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="senha" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="senha" name="senha" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Cadastrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--SEÇÃO LOGIN -->
+    <!--<section class="login py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Login</h2>
+            <hr / class="w-25 m-auto">
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="remember">
+                            <label class="form-check-label" for="remember">Lembrar-me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Entrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white" id="sociais">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Informações de contato</h5>
+                    <p>Endereço: Rua Exemplo, 123</p>
+                    <p>Telefone: (11) 1234-5678</p>
+                    <p>Email: exemplo@exemplo.com</p>
+                </div>
+                <div class="col-md-6" style="text-align: center">
+                    <h5>Redes sociais</h5>
+                    <ul class="list-unstyled d-flex align-itens-center" style="justify-content: center">
+                        <li class="me-3"><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li class="me-3"><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        <li class="me-3"><a href="#"><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button href="" id="btn-back-to-top" class="btn btn-primary back-to-top" role="button" aria-label="Voltar ao topo" data-bs-toggle="tooltip" data-bs-placement="left">
+        <i class="bi bi-arrow-up-circle-fill">Voltar</i>
+      </button>
+
+    <!--Js Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
